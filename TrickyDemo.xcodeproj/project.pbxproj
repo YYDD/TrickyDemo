@@ -14,6 +14,7 @@
 		18485A911CDF25EB005A5697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18485A901CDF25EB005A5697 /* Assets.xcassets */; };
 		18485A941CDF25EB005A5697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18485A921CDF25EB005A5697 /* LaunchScreen.storyboard */; };
 		18485A9F1CDF2650005A5697 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 18485A9E1CDF2650005A5697 /* UIImage+Color.m */; };
+		187A9FCD1CE368EB007DD7FA /* UIView+UIThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A9FCC1CE368EB007DD7FA /* UIView+UIThread.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		18485A951CDF25EB005A5697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		18485A9D1CDF2650005A5697 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
 		18485A9E1CDF2650005A5697 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		187A9FCB1CE368EB007DD7FA /* UIView+UIThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIThread.h"; sourceTree = "<group>"; };
+		187A9FCC1CE368EB007DD7FA /* UIView+UIThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIThread.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 			children = (
 				18485A9D1CDF2650005A5697 /* UIImage+Color.h */,
 				18485A9E1CDF2650005A5697 /* UIImage+Color.m */,
+				187A9FCB1CE368EB007DD7FA /* UIView+UIThread.h */,
+				187A9FCC1CE368EB007DD7FA /* UIView+UIThread.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -174,6 +179,7 @@
 				18485A9F1CDF2650005A5697 /* UIImage+Color.m in Sources */,
 				18485A891CDF25EA005A5697 /* AppDelegate.m in Sources */,
 				18485A861CDF25EA005A5697 /* main.m in Sources */,
+				187A9FCD1CE368EB007DD7FA /* UIView+UIThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -322,6 +328,7 @@
 				18485A9A1CDF25EB005A5697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

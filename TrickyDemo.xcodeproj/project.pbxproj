@@ -13,8 +13,10 @@
 		18485A8F1CDF25EB005A5697 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18485A8D1CDF25EB005A5697 /* Main.storyboard */; };
 		18485A911CDF25EB005A5697 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18485A901CDF25EB005A5697 /* Assets.xcassets */; };
 		18485A941CDF25EB005A5697 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18485A921CDF25EB005A5697 /* LaunchScreen.storyboard */; };
-		18485A9F1CDF2650005A5697 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 18485A9E1CDF2650005A5697 /* UIImage+Color.m */; };
-		187A9FCD1CE368EB007DD7FA /* UIView+UIThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 187A9FCC1CE368EB007DD7FA /* UIView+UIThread.m */; };
+		18C2175B1D53177300D59319 /* UIImage+Color.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C217531D53177300D59319 /* UIImage+Color.m */; };
+		18C2175C1D53177300D59319 /* UIView+UIThread.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C217551D53177300D59319 /* UIView+UIThread.m */; };
+		18C2175D1D53177300D59319 /* NSObject+AppleJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C217581D53177300D59319 /* NSObject+AppleJson.m */; };
+		18C2175E1D53177300D59319 /* NSString+AppleJson.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2175A1D53177300D59319 /* NSString+AppleJson.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,10 +30,14 @@
 		18485A901CDF25EB005A5697 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18485A931CDF25EB005A5697 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18485A951CDF25EB005A5697 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		18485A9D1CDF2650005A5697 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
-		18485A9E1CDF2650005A5697 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
-		187A9FCB1CE368EB007DD7FA /* UIView+UIThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIThread.h"; sourceTree = "<group>"; };
-		187A9FCC1CE368EB007DD7FA /* UIView+UIThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIThread.m"; sourceTree = "<group>"; };
+		18C217521D53177300D59319 /* UIImage+Color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Color.h"; sourceTree = "<group>"; };
+		18C217531D53177300D59319 /* UIImage+Color.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Color.m"; sourceTree = "<group>"; };
+		18C217541D53177300D59319 /* UIView+UIThread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+UIThread.h"; sourceTree = "<group>"; };
+		18C217551D53177300D59319 /* UIView+UIThread.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+UIThread.m"; sourceTree = "<group>"; };
+		18C217571D53177300D59319 /* NSObject+AppleJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSObject+AppleJson.h"; sourceTree = "<group>"; };
+		18C217581D53177300D59319 /* NSObject+AppleJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSObject+AppleJson.m"; sourceTree = "<group>"; };
+		18C217591D53177300D59319 /* NSString+AppleJson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+AppleJson.h"; sourceTree = "<group>"; };
+		18C2175A1D53177300D59319 /* NSString+AppleJson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+AppleJson.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,7 +70,7 @@
 		18485A831CDF25EA005A5697 /* TrickyDemo */ = {
 			isa = PBXGroup;
 			children = (
-				18485A9B1CDF2650005A5697 /* Trick */,
+				18C217501D53177300D59319 /* Trick */,
 				18485A871CDF25EA005A5697 /* AppDelegate.h */,
 				18485A881CDF25EA005A5697 /* AppDelegate.m */,
 				18485A8A1CDF25EA005A5697 /* ViewController.h */,
@@ -86,23 +92,35 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		18485A9B1CDF2650005A5697 /* Trick */ = {
+		18C217501D53177300D59319 /* Trick */ = {
 			isa = PBXGroup;
 			children = (
-				18485A9C1CDF2650005A5697 /* Category */,
+				18C217511D53177300D59319 /* Category */,
+				18C217561D53177300D59319 /* JSON */,
 			);
 			path = Trick;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
-		18485A9C1CDF2650005A5697 /* Category */ = {
+		18C217511D53177300D59319 /* Category */ = {
 			isa = PBXGroup;
 			children = (
-				18485A9D1CDF2650005A5697 /* UIImage+Color.h */,
-				18485A9E1CDF2650005A5697 /* UIImage+Color.m */,
-				187A9FCB1CE368EB007DD7FA /* UIView+UIThread.h */,
-				187A9FCC1CE368EB007DD7FA /* UIView+UIThread.m */,
+				18C217521D53177300D59319 /* UIImage+Color.h */,
+				18C217531D53177300D59319 /* UIImage+Color.m */,
+				18C217541D53177300D59319 /* UIView+UIThread.h */,
+				18C217551D53177300D59319 /* UIView+UIThread.m */,
 			);
 			path = Category;
+			sourceTree = "<group>";
+		};
+		18C217561D53177300D59319 /* JSON */ = {
+			isa = PBXGroup;
+			children = (
+				18C217571D53177300D59319 /* NSObject+AppleJson.h */,
+				18C217581D53177300D59319 /* NSObject+AppleJson.m */,
+				18C217591D53177300D59319 /* NSString+AppleJson.h */,
+				18C2175A1D53177300D59319 /* NSString+AppleJson.m */,
+			);
+			path = JSON;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -176,10 +194,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				18485A8C1CDF25EA005A5697 /* ViewController.m in Sources */,
-				18485A9F1CDF2650005A5697 /* UIImage+Color.m in Sources */,
+				18C2175B1D53177300D59319 /* UIImage+Color.m in Sources */,
+				18C2175D1D53177300D59319 /* NSObject+AppleJson.m in Sources */,
 				18485A891CDF25EA005A5697 /* AppDelegate.m in Sources */,
 				18485A861CDF25EA005A5697 /* main.m in Sources */,
-				187A9FCD1CE368EB007DD7FA /* UIView+UIThread.m in Sources */,
+				18C2175E1D53177300D59319 /* NSString+AppleJson.m in Sources */,
+				18C2175C1D53177300D59319 /* UIView+UIThread.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

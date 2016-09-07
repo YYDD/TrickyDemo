@@ -17,10 +17,13 @@
         return nil;
     }
     
+    
+    
     NSError *error = nil;
     NSData *data = nil;
     if (![self isKindOfClass:[NSData class]]) {
-        data = [NSKeyedArchiver archivedDataWithRootObject:self];
+//        data = [NSKeyedArchiver archivedDataWithRootObject:self];
+        data = [self dataUsingEncoding:NSUTF8StringEncoding];
     }
     id value = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
     

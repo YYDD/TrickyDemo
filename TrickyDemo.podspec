@@ -5,6 +5,6 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'http://git.ebaolife.net/laobai/NewIOSLaoBai'
   spec.authors      = { 'YYDD' => '615689375@qq.com' }
   spec.summary      = 'for test'
-  spec.source       = { :git => 'http://git.ebaolife.net/laobai/NewIOSLaoBai/raw/yydd-dev/TrickyDemo.podspec' }
+  spec.source       = { :git => 'http://git.ebaolife.net/laobai/NewIOSLaoBai/tree/yydd-dev' }
   spec.source_files = 'NewBaseVC/BaseView/*'
 end

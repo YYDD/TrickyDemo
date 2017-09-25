@@ -7,11 +7,11 @@ Pod::Spec.new do |spec|
   spec.homepage     = 'https://github.com/xiekw2010/DXAlertView'
   spec.summary      = 'DXAlertView'
   spec.source       = { :git => 'https://github.com/xiekw2010/DXAlertView.git'}
-  spec.source_files = 'Verndor/*'
+  spec.source_files = 'Vendor/*'
 
   spec.subspec 'DXAlertView' do |ss|
-    ss.source_files = 'BaseProject/DXAlertView/*'
-    ss.public_header_files = 'BaseProject/BaseVC/*.h'
+    ss.source_files = 'DXAlertView/*'
+    ss.public_header_files = 'DXAlertView/*.h'
   end
 
 
